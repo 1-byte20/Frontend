@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jegyzettömb</title>
+    <link rel="stylesheet" href="feladat1.css">
+    <script src="feladat1.js"></script>
+</head>
+<body>
+    <div class="klus">
+        <div class="els">
+            <label for="nev">Név:</label>
+            <input type="text" id="nev" placeholder="Add meg a neved">
+        </div>
+        <div class="els">
+            <label for="szul">Születési év:</label>
+            <input type="text" id="szul" placeholder="Add meg a születési éved">
+        </div>
+        <div class="els">
+            <label for="hel">Születési hely:</label>
+            <input type="text" id="hel" placeholder="Add meg a neved">
+        </div>
+        <div class="els">
+            <label for="email">Email cím:</label>
+            <input type="text" id="email" placeholder="Add meg az Email címed">
+        </div>
+        
+        <input type="button" value="Küldés" onclick="adatok()">
+    </div>
+    
+    
+</body>
+</html>
