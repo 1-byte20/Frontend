@@ -1,0 +1,9 @@
+function adatok(){
+    let nev = document.getElementById('nev').value;
+    let szul = document.getElementById('szul').value;
+    let hel = document.getElementById('hel').value;
+    let email = document.getElementById('email').value;
+
+    let szadat = [nev, szul, hel, email];
+    console.log(szadat);
+}
