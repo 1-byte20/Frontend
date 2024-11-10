@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;        
+    width: 100vw;          
+    background-color: #f5deb3;
+}
+
+
+.fent {
+    background-color: #00ffff;
+    height: 10%;
+    width: 800px;              
+}
+
+.kozep{
+    display: flex;
+    flex-grow: 1;              
+}
+
+.elem1{
+    background-color: #ffa500;
+    flex-basis: 150px;    
+}
+
+.masik1{
+    background-color: #e4cfa9;
+    flex-basis: 100px;    
+}
+
+.elem2{
+    background-color: #ff0000;  
+    flex-basis: 300px;            
+}
+
+.masik2{
+    background-color: #e4cfa9;  
+    flex-basis: 100px;            
+}
+
+.elem3{
+    background-color: #800080;  
+    flex-basis: 150px;  
+}
+
+.lent{
+    background-color: #0000ff;
+    height: 10%;
+    width: 800px;              
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="feladat.css">
+  <script src="feladat.js"></script>
+  <title>Adatbekérő form</title>
+  
+  
+</head>
+<body>
+  <div class="container">
+    <h2>Adatbekérés</h2>
+    <div class="form-group">
+      <label for="lastName">Vezetéknév:</label>
+      <input type="text" id="lastName" placeholder="Vezetéknév">
+    </div>
+    <div class="form-group">
+      <label for="firstName">Utónév:</label>
+      <input type="text" id="firstName" placeholder="Utónév">
+    </div>
+    <div class="form-group">
+      <label for="favoriteNumber">Kedvenc szám:</label>
+      <input type="number" id="favoriteNumber" placeholder="Kedvenc szám">
+    </div>
+    <div class="form-group">
+      <label for="hasLicense">Van jogosítványod?</label>
+      <input type="checkbox" id="hasLicense">
+    </div>
+    <button onclick="addUser()">Adatok hozzáadása</button>
+    <button onclick="showLicensedUsers()">Jogosítvánnyal rendelkezők</button>
+    <button onclick="showUnlicensedUsers()">Jogosítvánnyal nem rendelkezők</button>
+  </div>
+
+  
+</body>
+</html>
